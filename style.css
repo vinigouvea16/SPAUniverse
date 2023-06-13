@@ -97,9 +97,16 @@ nav{
   padding: 1.2rem 3.2rem;
   border: 2px solid #FFFFFF;
   border-radius: 5px;
+  
 }
 
-.home button:hover{
+.home button a{
+  text-decoration:none;
+  color: var(--tc-white);
+}
+
+.home button:hover,
+.home button a:hover{
   background: white;
   transition: .5s;
   color: rgba(2, 121, 170, 1);

@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+  --tc-white: #E1E1E6;
+  --ff: 'Roboto';
+  font-family: 'Roboto', sans-serif;
+  color: var(--tc-white);
+}
+
+body{
+  /* background: url(./assets/mountains-universe-1.png) no-repeat; */
+  background-size: cover !important;
+  height: 90vh;
+}
+
+.body-1{
+  background: url(./assets/mountains-universe-1.png) no-repeat;
+}
+
+.body-2{
+  background: url(./assets/mountains-universe-2.png) no-repeat;
+}
+
+.body-3{
+  background: url(./assets/mountains-universe-3.png) no-repeat;
+}
+
+
+nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 2.1rem;
+  line-height: 2.1rem; 
+  white-space: nowrap; 
+  display: flex;
+  flex-direction: row;
+}
+
+nav a:nth-child(3){
+  width: 120px;
+}
+
+nav a:hover{
+  font-weight: 700;
+}
+
+header{
+  width: 100%;
+  height: 12.2rem;
+}
+
+nav{
+  display: flex;
+  /* justiy-items: center; */
+  align-items:center;
+  gap: 3.2rem;
+  width: 49rem;
+  height: 4.2rem;
+  margin: 4rem 71rem 4rem 8rem;
+}
+
+ 
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 60vh;
+}
+
+.home h1{
+  font-size: 4.8rem;
+  line-height: 125%;
+  font-weight:bold;
+  padding-bottom: 2.4rem;
+}
+
+
+.home button{
+  background: none;
+  color: var(--tc-white);
+  font-family: var(--ff);
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1.2rem 3.2rem;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+}
+
+.home button:hover{
+  background: white;
+  transition: .5s;
+  color: rgba(2, 121, 170, 1);
+}
+
+
+.universe,
+.explore{
+  padding-left: 10rem;
+}
+
+.universe h1,
+.explore h1{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 6rem;
+  padding-bottom: 1.6rem;
+}
+
+.universe p,
+.explore p{
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+  width: 65rem;
+  opacity: 0.8;
+  }
